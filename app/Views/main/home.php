@@ -70,7 +70,7 @@
             <img src="<?= base_url("images/Rectangle 18.png")?>"style="max-width:500px; width:100%">
             
 
-            <button class="btn"><a>Locked</a></button>
+            <button class="btn-locked"><a>Locked</a></button>
           </div>
 
           
@@ -82,14 +82,14 @@
             <p style="font-size: 20px;">Menampilkan Data Beruntun</p>
             <p style="color: #A1A1A1;">Estimasi Waktu 4 menit</p>
             <img src="<?= base_url("images/Rectangle 14.png")?>"style="max-width:500px; width:100%">
-            <button class="btn"><a>Locked</a></button>
+            <button class="btn-select"><a>Select This</a></button>
           </div>
 
           <div class="col-md-4" style="margin-left:4em"> 
             <p style="font-size: 20px;">Membagi bilangan</p>
             <p style="color: #A1A1A1;">Estimasi Waktu 4 menit</p>
             <img src="<?= base_url("images/Rectangle 14.png")?>"style="max-width:500px; width:100%">
-            <button class="btn"><a>Locked</a></button>
+            <button class="btn-select"><a>Select This</a></button>
           </div>
           
         </div>

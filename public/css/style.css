@@ -481,6 +481,37 @@ pre {
   margin-right: -15px;
   margin-left: -15px; }
 
+.row .btn-locked{
+  background-color: #F3F2F0;
+    color: #BABABA; 
+    border: 2px solid transparent;
+    height: 35px;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px; 
+}  
+
+.row .btn-select{
+    background-color: transparent;
+    color: #BABABA; 
+    border: 2px solid #BABABA;
+    height: 35px;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px; 
+} 
+
+.row .btn-select:hover{
+  background-color: #BABABA; 
+  color: white; 
+} 
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }

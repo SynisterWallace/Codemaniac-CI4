@@ -27,7 +27,7 @@
       <div class="pl-5">
         <div class="row mb-3">
             <div class="col">
-                <h2 class="mb-4">Dashboard</h2> 
+                <h2 class="mb-4" style="margin-left:12px">Courses</h2> 
             </div>
             <div class="col">
                 <div class="form-outline">
@@ -40,7 +40,7 @@
             <button class="tablinks" onclick="openCity(event, 'All')" >All</button>
             <button class="tablinks" onclick="openCity(event, 'Current')" id="defaultOpen">Current</button>
             <button class="tablinks" onclick="openCity(event, 'Pending')">Pending</button>
-            <button class="tablinks" onclick="openCity(event, 'Completed')">Compeletd</button>
+            <button class="tablinks" onclick="openCity(event, 'Completed')">Compeleted</button>
         </div>
 
         <div id="All" class="tabcontent">
@@ -99,10 +99,10 @@
                 <img src="<?= base_url("images/Rectangle 14.png")?>"style="max-width:500px; width:100%">
                 
 
-                <button class="btn-pending"><a>Lanjutkan</a></button>
+                <button class="btn-pending"><a>Continue</a></button>
             </div>
             <div class="col-md-4" style="margin-left:4em"> 
-                <p style="font-size: 20px; margin-bottom: 45px;">Struktur Percabangan</p>
+                <p style="font-size: 20px;">Struktur Percabangan</p>
                 <p style="color: #A1A1A1;">Pemrograman Dasar</p>
                 
 
@@ -117,7 +117,7 @@
                 <img src="<?= base_url("images/Rectangle 18.png")?>"style="max-width:500px; width:100%">
                 
 
-                <button class="btn-pending"><a>Lanjutkan</a></button>
+                <button class="btn-pending"><a>Continue</a></button>
             </div>
             </div>
             </div>
@@ -162,10 +162,10 @@
                 <img src="<?= base_url("images/Rectangle 14.png")?>"style="max-width:500px; width:100%">
                 
 
-                <button class="btn-pending"><a>Lanjutkan</a></button>
+                <button class="btn-pending"><a>Continue</a></button>
             </div>
             <div class="col-md-4" style="margin-left:4em"> 
-                <p style="font-size: 20px; margin-bottom: 45px;">Struktur Percabangan</p>
+                <p style="font-size: 20px;">Struktur Percabangan</p>
                 <p style="color: #A1A1A1;">Pemrograman Dasar</p>
                 
 
@@ -180,14 +180,14 @@
                 <img src="<?= base_url("images/Rectangle 18.png")?>"style="max-width:500px; width:100%">
                 
 
-                <button class="btn-pending"><a>Lanjutkan</a></button>
+                <button class="btn-pending"><a>Continue</a></button>
             </div>
             </div>
         </div>
            
         <div id="Completed" class="tabcontent">
         <div class="row">
-        <div class="col-md-4" style="margin-left:4em"> 
+        <div class="col-md-4"> 
                 <p style="font-size: 20px;">Dasar Logika dan Aritmatika Pemrograman</p>
                 <p style="color: #A1A1A1;">Pemrograman Dasar</p>
                 
@@ -203,7 +203,7 @@
                 <img src="<?= base_url("images/Rectangle 18.png")?>"style="max-width:500px; width:100%">
                 
 
-                <button class="btn-done"><a>Locked</a></button>
+                <button class="btn-completed"><a>View</a></button>
             </div>
         </div>
         

@@ -57,6 +57,32 @@ body {font-family: Arial;}
     margin-top: 20px;  
 }  
 
+.tabcontent .btn-completed{
+    background-color: #F3F2F0;
+    color: #BABABA; 
+    border: 2px solid transparent;
+    height: 35px;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px;  
+} 
+
+.tabcontent .btn-completed:hover{
+  background-color: transparent;
+    color: #BABABA; 
+    border: 2px solid #BABABA;
+    height: 35px;
+    border-radius: 30px;
+    max-width: 150px;
+    width: 100%;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px;  
+} 
+
 .tabcontent .btn-pending{
     background-color: transparent;
     color: #BABABA; 
@@ -69,6 +95,12 @@ body {font-family: Arial;}
     float: right;
     margin-top: 20px;  
 }  
+
+.tabcontent .btn-pending:hover{
+  background-color: #BABABA; 
+  color: white;  
+}  
+
 
   /* Go from zero to full opacity */
   @-webkit-keyframes fadeEffect {
